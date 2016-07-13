@@ -1,4 +1,4 @@
-Commandos de Git!
+Commandos Basicos de Git!
 
 git clone <url del repositorio> 
  + Permite clonar un repositorio en tu servidor local.
