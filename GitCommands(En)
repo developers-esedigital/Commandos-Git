@@ -1,0 +1,38 @@
+Nueva linea !!!!!
+Git basic commands!
+
+git clone <url del repository> 
+ + Clones a repository in your local host (local pc).
+
+git pull
+ + Fetch and integrate the remote repository with your local repository 
+
+git status
+ + Check status of your current branch
+
+git branch -b <New branch>
+ + Creates a new branch on local repository with the name <New branch>
+
+git checkout <Branch>
+ + Moves your local repository to the branch <Branch> if the branch exists
+
+git checkout -b <New Branch>
+ + Creates a new branch on local repository with name <New branch> and moves your local repository to the new branch
+
+git add --all
+ + Adds all files modified or new to commit on local repository
+
+git add <Name file> 
+ + Adds file <Name file> to commit on local repository if the file exists
+
+git commit
+ + Commits all changes added to the heap of the local reposity
+
+git push --set-upstream <Origin branch> <New branch> 
+ + If branch <New branch> dose not exist on remote repository, this command creates the branch <New brach> and sets origin <Origin branch> and copies the commits made on local repository local to the remote repository
+
+git push
+ + Copies the commits made on local repository to the remote repository
+
+git merge <Branch>
+ + Fetchs all the changes commited on branch <Branch> and merges the with your current branch

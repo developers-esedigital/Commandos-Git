@@ -1,0 +1,42 @@
+Commandos Basicos de Git!
+
+git clone <url del repositorio> 
+ + Permite clonar un repositorio en tu servidor local.
+
+git pull
+ + Copia los cambios que estan en el repositorio remoto (la nube) a tu repositorio local (tu pc local)
+
+git status
+ + Permite ver el status de tu repositorio local
+
+git branch -b <Nombre de la rama nueva>
+ + Crea una nueva rama en el repositorio local con nombre <Nombre de la rama nueva>
+
+git checkout <Nombre de la rama>
+ + Te permite cambiarte a la rama <Nombre de la rama> simpre y cuando dicha rama exista
+
+git checkout -b <Nombre de la rama nueva>
+ + Crea una nueva rama en el repositorio local con nombre <Nombre de la rama nueva> y automaticamente te cambia a dicha rama
+
+git add --all
+ + Agrega todos los archivos cambiados al commit que se va a realizar en el repositorio local
+
+git add <Nombre del archivo a agregar> 
+ + Agrega el archivo con "Nombre del archivo a agregar" al commit que se va a realizar en el repositorio local
+
+git commit
+ + Guarda los cambios registrados en el log de commits
+
+git push --set-upstream <Rama de origen> <Rama nueva> 
+ + Si la rama "Rama nueva" no existe en el repositorio remoto, este comando crea la rama "Rama nueva" con origen "Rama de origen" y copia los commits realizados en el repositorio local, al repositorio remoto
+
+git push
+ + Copia los commits realizados en el repositorio local, al repositorio remoto
+
+git merge <Nombre de la rama de origen>
+ + Realiza merge de la rama actual y la rama por nombre <Nombre de la rama de origen>
+
+
+
+
+ 
